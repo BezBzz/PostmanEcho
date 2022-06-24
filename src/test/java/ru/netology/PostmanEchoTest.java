@@ -19,7 +19,6 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("[0].currency", equalTo(null))
-        ;
+                .body("[0].currency", equalTo(null));
     }
 }
